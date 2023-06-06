@@ -65,9 +65,8 @@ final class MovieQuizViewController: UIViewController {
     @IBOutlet private var textLabel: UILabel!
     @IBOutlet private var counterLabel: UILabel!
     
-    private var currentQuestionIndex = 0
     private var correctAnswers = 0
-    
+    private var currentQuestionIndex = 0
     
     //MARK: ViewDidLoad
     override func viewDidLoad() {
